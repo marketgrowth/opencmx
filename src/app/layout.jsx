@@ -23,10 +23,10 @@ const lexend = localFont({
 export const metadata = {
   title: {
     template: '%s - Docs',
-    default: 'CacheAdvance - Never miss the cache again.',
+    default: 'OpenCMX - Build your community on open source.',
   },
   description:
-    'Cache every single thing your app could ever do ahead of time, so your code never even has to run at all.',
+    'Avoid vendor lock-in, price hikes, and data silos by building your community on open-source platform.',
 }
 
 export default function RootLayout({ children }) {
@@ -36,8 +36,6 @@ export default function RootLayout({ children }) {
       className={clsx('h-full antialiased', inter.variable, lexend.variable)}
       suppressHydrationWarning
     >
-      <title>OpenCMX - Build your community on open source</title>
-      <meta description="Avoid vendor lock-in, price hikes, and data silos by building your community on open-source platform." />
       <meta keywords="community, open source, forum, discussion, LMS, courses, chat, collaboration, developer, user engagement, membership, social platform, wordpress platform" />
       <body className="flex min-h-full bg-white dark:bg-slate-900">
         <Providers>
