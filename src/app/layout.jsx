@@ -36,6 +36,9 @@ export default function RootLayout({ children }) {
       className={clsx('h-full antialiased', inter.variable, lexend.variable)}
       suppressHydrationWarning
     >
+      <title>OpenCMX - Build your community on open source</title>
+      <meta description="Avoid vendor lock-in, price hikes, and data silos by building your community on open-source platform." />
+      <meta keywords="community, open source, forum, discussion, LMS, courses, chat, collaboration, developer, user engagement, membership, social platform, wordpress platform" />
       <body className="flex min-h-full bg-white dark:bg-slate-900">
         <Providers>
           <Layout>{children}</Layout>
