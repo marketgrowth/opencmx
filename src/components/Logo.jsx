@@ -26,7 +26,7 @@ export function Logo(props) {
         fontSize="20"
         fontWeight="600"
         fontFamily="Arial, sans-serif"
-        letterSpacing="-0.02em" >OPENCMX</text>
+        letterSpacing="-0.02em" >OpenCMX</text>
     </svg>
   )
 }
