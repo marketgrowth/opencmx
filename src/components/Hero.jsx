@@ -48,10 +48,10 @@ export function Hero() {
               priority
             />
             <div className="relative">
-              <p className="inline bg-linear-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
+              <p className="pr-12 bg-linear-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-3xl sm:text-5xl tracking-tight text-transparent">
                 Launch your brand community on open source platform
               </p>
-              <p className="mt-3 text-2xl tracking-tight text-slate-400">
+              <p className="mt-3 text-xl sm:text-2xl tracking-tight text-slate-400">
                 Avoid vendor lock-in, price hikes, and data silos by building your community on
                 open-source.
               </p>
