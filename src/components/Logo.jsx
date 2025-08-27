@@ -11,15 +11,6 @@ export function Logomark(props) {
   return (
     <svg aria-hidden="true" viewBox="0 0 36 36" fill="none" {...props}>
       <LogomarkPaths />
-      <text
-        x="42"
-        y="26"
-        fill="#0F172A"
-        fontSize="20"
-        fontWeight="600"
-        fontFamily="Arial, sans-serif"
-        letterSpacing="-0.02em" 
-        className="dark:fill-[#74d4ff]" >OpenCMX</text>
     </svg>
   )
 }
